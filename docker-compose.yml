@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  amplify:
+    container_name: amplify
+    build:
+      context: ./build/
+    volumes:
+      - ./src:/amplify/src
+    env_file:
+      - .env
+    ports:
+      - "8081:8081"
+      - "19000:19000"
+      - "19001:19001"
+      - "19002:19002"
+    tty: true
