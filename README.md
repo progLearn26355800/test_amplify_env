@@ -24,7 +24,7 @@ https://docs.amplify.aws/start/getting-started/installation/q/integration/react-
 `.env`ファイルを作成し，以下のように内容を編集する
 
 ```.env
-hogehoge=fugafuga
+REACT_NATIVE_PACKAGER_HOSTNAME=192.168.10.103
 ```
 
 ### 2.1. docker-compose でコンテナ作成
