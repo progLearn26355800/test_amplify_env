@@ -57,9 +57,20 @@ amplify configure
 
 ### react native プロジェクトの作成
 
+
+- 新しくpロジェクトを作成する場合
 ```
-$ npx create-expo <プロジェクト名>
+$ npx create-expo-app <プロジェクト名>
 $ cd <プロジェクト名>
+$ npm install aws-amplify amazon-cognito-identity-js @react-native-community/netinfo @react-native-async-storage/async-storage
+$ npm start
+```
+
+- 既存のプロジェクトを使用する場合
+```
+$ cd <プロジェクト名>
+$ npx expo init
+$ npm install aws-amplify amazon-cognito-identity-js @react-native-community/netinfo @react-native-async-storage/async-storage
 $ npm start
 ```
 
