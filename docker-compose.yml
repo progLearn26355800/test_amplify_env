@@ -2,7 +2,7 @@ version: '3'
 
 services:
   amplify:
-    container_name: amplify
+    container_name: amplify-function
     build:
       context: ./build/
     volumes:
