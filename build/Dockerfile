@@ -14,3 +14,9 @@ RUN rm awscliv2.zip
 RUN npm install -g @aws-amplify/cli
 
 RUN npm install aws-amplify @aws-amplify/ui-react@1.x.x
+
+RUN npm install -g expo-cli
+
+RUN npm install -g aws-amplify amazon-cognito-identity-js @react-native-community/netinfo @react-native-async-storage/async-storage
+
+RUN npm install -g @aws-amplify/ui-react-native react-native-get-random-values react-native-url-polyfill
