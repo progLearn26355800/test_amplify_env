@@ -13,4 +13,4 @@ RUN rm awscliv2.zip
 
 RUN npm install -g @aws-amplify/cli
 
-RUN npm install aws-amplify @aws-ampliffy/ui-react@1.x.x
+RUN npm install aws-amplify @aws-amplify/ui-react@1.x.x
